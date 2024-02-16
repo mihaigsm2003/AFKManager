@@ -320,7 +320,7 @@ public class AFKManager : BasePlugin, IPluginConfig<AFKManagerConfig>
                             case 1:
                                 sFormat = Config.ChatMoveMessage?.Replace("{playername}", player.PlayerName).Replace("{teamcolor}",
                                     GetTeamColor((CsTeam)player.TeamNum).ToString());
-
+                                    
                                 playerPawn?.CommitSuicide(false, true);
                                 player.ChangeTeam(CsTeam.Spectator);
                                 break;
@@ -347,6 +347,7 @@ public class AFKManager : BasePlugin, IPluginConfig<AFKManagerConfig>
                     sFormat = sFormat?.Replace("{playername}", player.PlayerName).Replace("{time}", $"{((Config.Warnings * Config.Timer) - (_gPlayerInfo[i].WarningCount * Config.Timer)):F1}");
                     
                     player.PrintToChat(sFormat ?? string.Empty);
+                    player.ExecuteClientCommand("play player/damage1");
                     data.WarningCount++;
                 }
                 else

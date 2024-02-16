@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\MihaiGsm2003\\Desktop\\CS2\\CSS\\AFKManager\\AFKManager\\AFKManager.csproj": {}
+    "C:\\Users\\MihaiGsm2003\\Desktop\\CS2\\CSS\\AFKManager\\AFKManager\\AFKManager.csproj": {}
   },
   "projects": {
-    "c:\\Users\\MihaiGsm2003\\Desktop\\CS2\\CSS\\AFKManager\\AFKManager\\AFKManager.csproj": {
+    "C:\\Users\\MihaiGsm2003\\Desktop\\CS2\\CSS\\AFKManager\\AFKManager\\AFKManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\MihaiGsm2003\\Desktop\\CS2\\CSS\\AFKManager\\AFKManager\\AFKManager.csproj",
+        "projectUniqueName": "C:\\Users\\MihaiGsm2003\\Desktop\\CS2\\CSS\\AFKManager\\AFKManager\\AFKManager.csproj",
         "projectName": "AFKManager",
-        "projectPath": "c:\\Users\\MihaiGsm2003\\Desktop\\CS2\\CSS\\AFKManager\\AFKManager\\AFKManager.csproj",
+        "projectPath": "C:\\Users\\MihaiGsm2003\\Desktop\\CS2\\CSS\\AFKManager\\AFKManager\\AFKManager.csproj",
         "packagesPath": "C:\\Users\\MihaiGsm2003\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\MihaiGsm2003\\Desktop\\CS2\\CSS\\AFKManager\\AFKManager\\obj\\",
+        "outputPath": "C:\\Users\\MihaiGsm2003\\Desktop\\CS2\\CSS\\AFKManager\\AFKManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MihaiGsm2003\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -15,6 +15,7 @@ Config File located in **/addons/counterstrikesharp/configs/plugins/AFKManager**
   - SpecSkipFlag ( Skip SPEC players with that flag during AFK verification )
   - SpecKickOnlyMovedByPlugin ( Only check SPEC players that were moved by AFK Manager )
   - Retake ( Only check CT players )
+  - Added sound on warning message (GSM-RO)
 
 # Requirements:
 [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) v110 or higher
